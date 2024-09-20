@@ -1,0 +1,82 @@
+body{
+    background-color: lightgrey;
+    margin: 0;
+    
+}
+header h1 {
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+}
+
+.photoHeaderContainer {
+    background-color: white;
+    display: flex;
+    padding-left: 8px;
+    padding-top: 15px;
+}
+
+.photo{
+    background-color: white
+}
+.photo img {
+    width: 100%;
+ }
+.post-body {
+    background-color: white;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.post{
+    width: 400px;
+    margin-top: 40px;
+    border: 1px solid rgb(155, 154, 154);
+    border-radius:09px;
+    overflow: hidden; /* para evitar que el contenido se salga del container y las esquinas se vean raras, sin color */
+}
+
+.iconos {
+    display: flex;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.iconos div:last-child {
+    margin-left: auto;
+}
+
+div p {
+    font-family: Roboto;
+    font-weight: 300;
+   font-size: 13px;
+}
+
+.HTML5 {
+   font-family: Roboto;
+   font-weight: 300;
+   font-size: 13px;
+}
+div.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.icono5 {
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+#hamburgerMenu {
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 30px;
+}
